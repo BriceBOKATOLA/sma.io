@@ -190,7 +190,7 @@ body {
   border-color: var(--bittersweet);
   color: var(--white);
   font-size: 30px;
-  padding: 4px;
+/*   padding: 4px; */
   /* padding-block: 15px;  */
 
 }
