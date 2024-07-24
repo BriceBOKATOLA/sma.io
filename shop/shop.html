@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Shop</title>
+  <meta name="title" content="Woodex - Get Quality Furniture">
+  <meta name="description" content="This is an eCommerce html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../shop/assets/img/iconeagecneweb.jpg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-product-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-3.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-4.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-5.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="input-wrapper">
+
+      </div>
+
+      <a href="../index.html" class="">Acceuil</a>
+      <a href="#" class="logo">Shop</a>
+
+      <div class="header-action">
+
+        <!-- <button class="header-action-btn" aria-label="user">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="header-action-btn" aria-label="favorite list">
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+        <button class="header-action-btn" aria-label="cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button> -->
+
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- 
+    - #SIDEBAR
+  -->
+
+  <div class="sidebar" data-navbar>
+
+    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+      <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+    </button>
+
+    <!-- a conservé pour plusieurs raisons  -->
+    <nav class="navbar">
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <a href="#" class="navbar-link" data-nav-link>A</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#" class="navbar-link" data-nav-link>Ap</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#" class="navbar-link" data-nav-link>Pr</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#" class="navbar-link" data-nav-link>Blogs</a>
+        </li>
+
+      </ul>
+    </nav>
+
+
+
+  </div>
+
+  <div class="overlay" data-overlay data-nav-toggler></div>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <ul class="hero-list">
+
+            <li>
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 285; --height: 396;">
+                  <img src="./assets/img/souriscl.jpg" width="285" height="396" alt="image sourisclavier" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a  class="card-title">Souris / Clavier</a>
+                  </h3>
+
+                  <p class="card-text">Accessoire</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="colspan-2">
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 568; --height: 389;">
+                  <img src="./assets/img/computer.jpg" width="568" height="389" alt="image ordinateur" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a  class="card-title">Ordinateur</a>
+                  </h3>
+
+                  <p class="card-text">Appareil</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 285; --height: 396;">
+                  <img src="./assets/img/casque.jpg" width="285" height="396" alt="image casque" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a  class="card-title">Musique</a>
+                  </h3>
+
+                  <p class="card-text">Outil de Musique</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="colspan-2">
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 580; --height: 213;">
+                  <img src="./assets/img/phone.jpg" width="580" height="213" alt="image phone" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a  class="card-title">smartphone</a>
+                  </h3>
+
+                  <p class="card-text">Phone</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="colspan-2">
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 580; --height: 213;">
+                  <img src="./assets/img/was.jpg" width="580" height="213" alt="image de montre" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a  class="card-title">Montre Connecté</a>
+                  </h3>
+
+                  <p class="card-text">Accessoire</p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <h2 class="section-title">SHOP</h2>
+
+          <p class="section-text">
+            Commandez en toute simplicité, nous nous occupons de tout ! Nous prenons votre commande, faisons l'achat et
+            La
+            livraison. Pour un service personnalisé, contactez-nous dès maintenant ! </p>
+
+          <div class="about-card">
+            <figure class="card-banner img-holder" style="--width: 1170; --height: 450;">
+              <img src="./assets/img/cas.jpg" width="1170" height="450" loading="lazy" alt="image ecouteur"
+                class="img-cover">
+            </figure>
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-circle-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #PRODUCTS
+      -->
+
+      <section class="section product" id="product" aria-label="product">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Nos produits</h2>
+
+            <ul class="filter-btn-list">
+
+              <li class="filter-btn-item">
+                <button class="filter-btn active" data-filter-btn="all">Tous nos produits</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="accessory">Accessoires</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="decoration">Appareils</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="furniture">Autres</button>
+              </li>
+
+            </ul>
+          </div>
+
+          <ul class="grid-list product-list" data-filter="all">
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/mac.jpg" width="300" height="300" loading="lazy" alt="image mac"
+                    class="img-cover">
+
+                  <ul class="badge-list">
+
+                    <li>
+                      <div class="badge orange">-10%</div>
+                    </li>
+
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">MacBok</a>
+                  </h3>
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/manps5.jpg" width="300" height="300" loading="lazy" alt="image de manette de ps5"
+                    class="img-cover">
+
+                  <div class="card-badge">Plus en commande</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Manette Ps5</a>
+                  </h3>
+
+
+                </div>
+
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/photo.jpg" width="300" height="300" loading="lazy"
+                    alt="image d'un appreil photo" class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Appareil Photo</a>
+                  </h3>
+
+                </div>
+            </li>
+
+            <!-- ------------------------------  -->
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/mi.jpg" width="300" height="300" loading="lazy" alt="image du mintendo"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">MINTENDO</a>
+                  </h3>
+
+                </div>
+            </li>
+
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/dj.jpg" width="300" height="300" loading="lazy" alt="image de Platine DJ"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Platine DJ</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/ecouter.jpg" width="300" height="300" loading="lazy" alt="image d'AirPods"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">AirPods</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/imp.jpg" width="300" height="300" loading="lazy" alt="image d'Imprimante"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Imprimante</a>
+                  </h3>
+
+                </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/souris.jpg" width="300" height="300" loading="lazy"
+                    alt="image d'une souris d'ordinateur" class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Souris</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/discdur.jpg" width="300" height="300" loading="lazy"
+                    alt="image d'un Disque dure externe" class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Disque dure externe</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/camera.jpg" width="300" height="300" loading="lazy" alt="image de camera"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Camera</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/googlehome.jpg" width="300" height="300" loading="lazy" alt="image google home"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Enceinte Bluetooth Google Home</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/ps5.jpg" width="300" height="300" loading="lazy" alt="Simage Ps5"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Ps5</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/projecteur.jpg" width="300" height="300" loading="lazy"
+                    alt="image Vidéo projecteur" class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Vidéo projecteur</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/trone.jpg" width="300" height="300" loading="lazy" alt="image de drone"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Drone</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/objectif.jpg" width="300" height="300" loading="lazy"
+                    alt="image Objectif de photo" class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Objectif</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/dell.jpg" width="300" height="300" loading="lazy" alt="image Ordinateur"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Ordinateur</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/sam.jpg" width="300" height="300" loading="lazy" alt="image de smartPhone"
+                    class="img-cover">
+
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">SmartPhone</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/ubl.jpg" width="300" height="300" loading="lazy" alt="image Enceinte"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Enceinte</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/ipad.jpg" width="300" height="300" loading="lazy" alt="image Ipad"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Ipad</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="./assets/img/parfum.jpg" width="300" height="300" loading="lazy" alt="image parfum"
+                    class="img-cover">
+
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a class="card-title">Parfum</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #NEWSLETT
+      -->
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <div class="card-content">
+              <h2 class="h2 section-title">Notre commision</h2>
+
+              <p class="section-text">
+                La commission est calculée en fonction de vos produits et de la quantité commandée, garantissant un
+                tarif adapté à vos besoins
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a class="logo">Shop</a>
+
+          <ul>
+            <!-- number phone  -->
+            <li class="footer-list-item">
+              <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+242044784429" class="footer-link">+242 04 478 44 29
+
+              </a>
+            </li>
+            <li class="footer-list-item">
+              <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+242067441711" class="footer-link">+242 06 744 17 11</a>
+            </li>
+
+            <li>
+              <ul class="social-list">
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-tumblr"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- 
+        #A voir s'il faut le mettre 
+      -->
+
+        <!-- <ul class="footer-list">
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact</a>
+          </li>
+
+        </ul> -->
+
+
+      </div>
+      <!-- copyright -->
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 All Rights Reserved by <a href="https://www.rodsonebanga.com/"
+            class="copyright-link">rodsonEbanga</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
